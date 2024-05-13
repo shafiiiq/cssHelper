@@ -17,6 +17,10 @@
     --text-color: #e9e9e1;
     --black-color: #000000;
     --white-color: #ffffff;
+    --link: #007bff;
+    --red: #dc3545;
+    --yellow: #ffc107;
+    --green: 28a745;
     --shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     --border-radius: 10px;
     --border: 1px solid var(--border-clr);
@@ -528,6 +532,23 @@
 .abs-mid-y {
     top: 50%;
     transform: translateY(-50%);
+}
+
+/* other diplay class  */
+.block {
+    display: block;
+}
+
+.none {
+    display: none;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.invisible {
+    opacity: 0;
 }
 
 /* margin class */
@@ -1750,6 +1771,38 @@
     background-color: var(--black-color);
 }
 
+.link-clr {
+    color: var(--link);
+}
+
+.red-clr {
+    color: var(--red);
+}
+
+.warning-clr {
+    color: var(--yellow);
+}
+
+.success-clr {
+    color: var(--green);
+}
+
+.link-bg {
+    background-color: var(--link);
+}
+
+.red-bg {
+    background-color: var(--red);
+}
+
+.warning-bg {
+    background-color: var(--yellow);
+}
+
+.success-bg {
+    background-color: var(--green);
+}
+
 .glass {
     background-color: transparent;
 }
@@ -1781,6 +1834,10 @@
 
 .bold {
     font-weight: 600;
+}
+
+.u {
+    text-decoration: underline;
 }
 
 /* size class */
