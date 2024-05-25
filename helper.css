@@ -111,163 +111,163 @@
     place-items: center;
 }
 
-.repeat-1 {
+.c-repeat-1 {
     grid-template-columns: repeat(1, 1fr);
 }
 
-.repeat-2 {
+.c-repeat-2 {
     grid-template-columns: repeat(2, 1fr);
 }
 
-.repeat-3 {
+.c-repeat-3 {
     grid-template-columns: repeat(3, 1fr);
 }
 
-.repeat-4 {
+.c-repeat-4 {
     grid-template-columns: repeat(4, 1fr);
 }
 
-.repeat-5 {
+.c-repeat-5 {
     grid-template-columns: repeat(5, 1fr);
 }
 
-.repeat-6 {
+.c-repeat-6 {
     grid-template-columns: repeat(6, 1fr);
 }
 
-.repeat-7 {
+.c-repeat-7 {
     grid-template-columns: repeat(7, 1fr);
 }
 
-.repeat-8 {
+.c-repeat-8 {
     grid-template-columns: repeat(8, 1fr);
 }
 
-.repeat-9 {
+.c-repeat-9 {
     grid-template-columns: repeat(9, 1fr);
 }
 
-.repeat-10 {
+.c-repeat-10 {
     grid-template-columns: repeat(10, 1fr);
 }
 
-.repeat-11 {
+.c-repeat-11 {
     grid-template-columns: repeat(11, 1fr);
 }
 
-.repeat-12 {
+.c-repeat-12 {
     grid-template-columns: repeat(12, 1fr);
 }
 
-.repeat-13 {
+.c-repeat-13 {
     grid-template-columns: repeat(13, 1fr);
 }
 
-.repeat-14 {
+.c-repeat-14 {
     grid-template-columns: repeat(14, 1fr);
 }
 
-.repeat-15 {
+.c-repeat-15 {
     grid-template-columns: repeat(15, 1fr);
 }
 
-.repeat-16 {
+.c-repeat-16 {
     grid-template-columns: repeat(16, 1fr);
 }
 
-.repeat-17 {
+.c-repeat-17 {
     grid-template-columns: repeat(17, 1fr);
 }
 
-.repeat-18 {
+.c-repeat-18 {
     grid-template-columns: repeat(18, 1fr);
 }
 
-.repeat-19 {
+.c-repeat-19 {
     grid-template-columns: repeat(19, 1fr);
 }
 
-.repeat-20 {
+.c-repeat-20 {
     grid-template-columns: repeat(20, 1fr);
 }
 
-.row-repeat-1 {
+.r-repeat-1 {
     grid-template-rows: repeat(1, 1fr);
 }
 
-.row-repeat-2 {
+.r-repeat-2 {
     grid-template-rows: repeat(2, 1fr);
 }
 
-.row-repeat-3 {
+.r-repeat-3 {
     grid-template-rows: repeat(3, 1fr);
 }
 
-.row-repeat-4 {
+.r-repeat-4 {
     grid-template-rows: repeat(4, 1fr);
 }
 
-.row-repeat-5 {
+.r-repeat-5 {
     grid-template-rows: repeat(5, 1fr);
 }
 
-.row-repeat-6 {
+.r-repeat-6 {
     grid-template-rows: repeat(6, 1fr);
 }
 
-.row-repeat-7 {
+.r-repeat-7 {
     grid-template-rows: repeat(7, 1fr);
 }
 
-.row-repeat-8 {
+.r-repeat-8 {
     grid-template-rows: repeat(8, 1fr);
 }
 
-.row-repeat-9 {
+.r-repeat-9 {
     grid-template-rows: repeat(9, 1fr);
 }
 
-.row-repeat-10 {
+.r-repeat-10 {
     grid-template-rows: repeat(10, 1fr);
 }
 
-.row-repeat-11 {
+.r-repeat-11 {
     grid-template-rows: repeat(11, 1fr);
 }
 
-.row-repeat-12 {
+.r-repeat-12 {
     grid-template-rows: repeat(12, 1fr);
 }
 
-.row-repeat-13 {
+.r-repeat-13 {
     grid-template-rows: repeat(13, 1fr);
 }
 
-.row-repeat-14 {
+.r-repeat-14 {
     grid-template-rows: repeat(14, 1fr);
 }
 
-.row-repeat-15 {
+.r-repeat-15 {
     grid-template-rows: repeat(15, 1fr);
 }
 
-.row-repeat-16 {
+.r-repeat-16 {
     grid-template-rows: repeat(16, 1fr);
 }
 
-.row-repeat-17 {
+.r-repeat-17 {
     grid-template-rows: repeat(17, 1fr);
 }
 
-.row-repeat-18 {
+.r-repeat-18 {
     grid-template-rows: repeat(18, 1fr);
 }
 
-.row-repeat-19 {
+.r-repeat-19 {
     grid-template-rows: repeat(19, 1fr);
 }
 
-.row-repeat-20 {
+.r-repeat-20 {
     grid-template-rows: repeat(20, 1fr);
 }
 
@@ -2265,17 +2265,17 @@
     height: 100%;
 }
 
+.size-half {
+    height: 50%;
+    width: 50%;
+}
+
 .h-full {
     height: 100%;
 }
 
 .w-full {
     width: 100%;
-}
-
-.size-half {
-    height: 50%;
-    width: 50%;
 }
 
 .w-half {
@@ -2386,19 +2386,19 @@
     border-radius: 100vh;
 }
 
-.r-vh-l {
+.rl-vh {
     border-radius: 0 0 100vh 100vh;
 }
 
-.r-vh-r {
+.rr-vh {
     border-radius: 0 100vh 100vh 0;
 }
 
-.r-vh-t {
+.rt-vh {
     border-radius: 100vh 100vh 0 0;
 }
 
-.r-vh-b {
+.rb-vh {
     border-radius: 0 0 100vh 100vh;
 }
 
@@ -2407,45 +2407,45 @@
     border-radius: 100%;
 }
 
-.r-l-full {
+.rl-full {
     border-radius: 0 0 100% 100%;
 }
 
-.r-r-full {
+.rr-full {
     border-radius: 0 100% 100% 0;
 }
 
-.r-t-full {
+.rt-full {
     border-radius: 100% 100% 0 0;
 }
 
-.r-b-full {
+.rb-full {
     border-radius: 0 0 100% 100%;
 }
 
 /* radius 50%  */
-.r-50-half {
+.r-50 {
     border-radius: 50%;
 }
 
-.r-l-50-half {
+.rl-50 {
     border-radius: 0 0 50% 50%;
 }
 
-.r-r-50-half {
+.rr-50 {
     border-radius: 0 50% 50% 0;
 }
 
-.r-t-50-half {
+.rt-50 {
     border-radius: 50% 50% 0 0;
 }
 
-.r-b-50-half {
+.rb-50 {
     border-radius: 0 0 50% 50%;
 }
 
 /* overflow class  */
-.scroll-hiiden {
+.scroll-hidden {
     overflow: hidden;
 }
 
