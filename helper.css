@@ -75,7 +75,7 @@
 
 /* helper class  */
 
-/* .dispay flex  */
+/* dispay flex  */
 .flex-full {
     display: flex;
     justify-content: center;
@@ -84,6 +84,10 @@
 
 .flex {
     display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
 }
 
 .j-center {
